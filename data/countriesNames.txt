@@ -1,0 +1,193 @@
+Afghanistan
+South Africa
+Albania
+Algeria
+Germany
+Andorra
+Angola
+Antigua
+Saudi Arabia
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia
+Botswana
+Brazil
+Brunei
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Chile
+China
+Chypre
+Colombia
+Comoros
+Congo
+Costa Rica
+Ivory Coast
+Croatia
+Cuba
+Denmark
+Djibouti
+Dominica
+Egypt
+United Arab Em.
+Equator
+Eritrea
+Spain
+Estonia
+U.S.A.
+Ethiopia
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Ghana
+Greece
+Granada
+Guatemala
+Guinea
+Guinea Bissau
+Equatorial Guinea
+Guyana
+Haiti
+Honduras
+Hungary
+Marshall Islands
+Solomon Islands
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Iceland
+Israel
+Italy
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kyrgyzstan
+Kiribati
+Kuwait
+Laos
+Lesotho
+Latvia
+Lebanon
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Madagascar
+Malaysia
+Malawi
+Maldive Islands
+Mali
+Malta
+Morocco
+Mauritius
+Mauritania
+Mexico
+Micronesia
+Moldavia
+Monaco
+Mongolia
+Montenegro
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Nicaragua
+Niger
+Nigeria
+Norway
+New Zeland
+Oman
+Uganda
+Uzbekistan
+Pakistan
+Palaos
+Panama
+Papua
+Paraguay
+Netherlands
+Peru
+Filipinos
+Poland
+Portugal
+Qatar
+Cent. African Rep.
+South Korea
+Zaire
+Dominican Republic
+North Korea
+Czech Republic
+Romania
+United Kingdom
+Russia
+Rwanda
+St Lucie
+St Kitts & Nevis
+St Martin
+St Vincent
+Salvador
+Samoa
+Sao Tome & Principe
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Somalia
+Sudan
+South Sudan
+Sri Lanka
+Sweden
+Swiss
+Suriname
+Swaziland
+Syria
+Tajikistan
+Tanzania
+Chad
+Thailand
+East Timor
+Togo
+Tonga
+Trinidad & Tobago
+Tunisia
+Turkmenistan
+Turkey
+Tuvalu
+Ukraine
+Uruguay
+Vanuatu
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwe

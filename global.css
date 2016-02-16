@@ -1,0 +1,54 @@
+body {
+	background-color: #000000;
+	border:solid black 10px;
+	font-family: Arial;
+	color: #ccc;
+	font-size: 11px;
+	margin: 0px;
+	overflow: hidden;
+}
+a { color:#0078ff; }
+
+.border{ position: absolute; cursor: pointer; }
+#top    { top:   0px; left: 0px; border-top:   solid rgba(0,0,0,0) 10px; width:100%; height:12%; }
+#bottom { bottom:0px; left: 0px; border-bottom:solid rgba(0,0,0,0) 10px; width:100%; height:12%; }
+#right  { right: 0px;  top: 0px; border-right: solid rgba(0,0,0,0) 10px; width:12%;  height:100%; }
+#left   { left:  0px;  top: 0px; border-left:  solid rgba(0,0,0,0) 10px; width:12%;  height:100%; }
+
+#docu {
+	position: absolute;
+	background-color: rgba(0,0,0,1);
+	background-clip: padding-box;
+	border: solid rgba(0,0,0,0.6) 15px;
+	z-index:2;	
+	overflow-y: auto;
+	top:20%;
+	bottom:20%;
+	right:20%;
+	left:20%;
+	padding: 20px
+}
+
+#mapButton{
+	position: absolute;
+	top: 11%;
+	left:11%;
+	z-index:1;
+	display: none;
+
+	color:#000;
+	background-color: #555; 
+	font-weight: bold;
+	font-size: 14px; 
+	padding:0 3px 0 3px;
+	border-color:  #333;
+	border-width: 6px !important;
+	border-left-style: solid;
+	cursor: pointer; 
+	width:4em;
+}
+#mapButton:hover{ 
+	background-color: #ddd; 
+	color: #333; 
+	border-color:  #555;
+}

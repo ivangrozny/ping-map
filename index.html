@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js canvas - lines - random</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<LINK rel="stylesheet" type="text/css" href="global.css">
+		<script src="lib/jquery-2.2.0.min.js" type="text/javascript"></script>
+		<script src="lib/processing.js" type="text/javascript"></script>
+		<script src="lib/buzz.min.js" type="text/javascript"></script>
+		<script src="lib/three.min.js" type="text/javascript"></script>
+		<script src="lib/CanvasRenderer.js" type="text/javascript"></script>
+		<script src="lib/Projector.js" type="text/javascript"></script>
+
+		<script src="lib/stats.min.js"></script>	
+		<script src="global.js" type="text/javascript"></script>	
+	</head>
+	<body>
+		<canvas id="networkjs" data-processing-sources="networkjs.pde" width="0" height="0" style="display:none;"><p>Your browser does not support the canvas</p> </canvas>
+
+		<div id="docu">
+			<h1>DOCUMENTATION</h1> 
+			UN-Mapping > aka. PING MAP
+Nicolas Maigret 2011-2014
+Development: Ivan Murit
+Research: Nicolas Maigret and Nicolas Montgermont 2011
+
+---------ENGLISH BELOW--------------
+Les géants du web surplombent progressivement le pouvoir des états, les autoroutes de l’information et les portails web par défaut conditionnent une nouvelle hiérarchie des flux informationnels, et tissent une cartographie propre au réseau. UN-Mapping propose de ré-envisager poétiquement et techniquement ce que devient la géographie des nations à l’ère du réseau, du trading haute fréquence, des câbles sous-marins et autres routages automatisés. Au sein d’un tel contexte numérique, la principale mesure de distance devient le simple délai de transmission entre serveurs et terminaux. La structure spatiale et territoriale des transits repositionne alors les pays; projetant les mieux connectés au cœur d’une carte qui ne cesse de se densifier, et renvoyant les zones les plus lentes, fragiles ou instables, aux périphéries – sorte de ghetto de la connectivité. Basé sur une requête informatique élémentaire,
+le “ping”, ce projet mesure continuellement la réactivité des site gouvernementaux de 193 pays de l’ONU pour en déduire leur distance sur le ‘réseau’. La carte se base sur la circulation de blocs de données prenants ici la fonction de sondes. Les routes empruntées étant en perpétuel changement, une géographie mondiale variable et vibrante ne cesse de se redéfinir.
+
+--------------ENGLISH-------------------
+IT giants are slowly getting ahead of state power, and information superhighway along with default web portal are both framing a new hierarchy in the datasphere and paving the way for a network specific cartography. On poetic and technical levels, UN-Mapping invites us to consider the new spatial relation of nations in the age of global network, high frequency trading, submarine cables, and automated routing. Against this background, the new critical measure unit becomes as simple as the transmission delay between servers and terminals. (ie. ping time)
+The new territorial and spatial structures drawn by those digital transits reposition the countries on the map, projecting the better connected ones to the core of a map in constant compression, and ejecting the slower or fragile ones in the periphery - the new ghetto of the connected world. Based on a basic request - the ping command - this project keeps probing the 193 UN country governmental sites’ response time, to define their virtual distance on the network. This live and critical mapping is based on a flow of data requests used as distance probes of the digital space. With every single network routes in a state of constant change, UN-Mapping exposes a highly significant digital-world-map that constantly redefines itself.
+		</div>
+
+		<div id="mapButton">Ping Timing</div>
+
+		<div class="border" id="top"></div>
+		<div class="border" id="bottom"></div>
+		<div class="border" id="left"></div>
+		<div class="border" id="right"></div>
+
+
+
+		<noscript> <p>JavaScript is required to view the contents of this page.</p> </noscript>
+	</body>
+</html>
