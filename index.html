@@ -14,9 +14,214 @@
 
 		<script src="lib/stats.min.js"></script>	
 		<script src="global.js" type="text/javascript"></script>	
+		<script src="layout.js" type="text/javascript"></script>	
 	</head>
 	<body>
 		<canvas id="networkjs" data-processing-sources="networkjs.pde" width="0" height="0" style="display:none;"><p>Your browser does not support the canvas</p> </canvas>
+		<div id="cover"></div>
+		
+		<div id="content">
+			<div class="ms" id="tit">PING</div><div class="country">TIME IN MS</div> <br/>
+			<div class="ms" id="AFRICA">_</div><div class="country continent">AFRICA </div> <br/>
+			<div class="ms" id="ALGERIA"></div><div class="country">ALGERIA </div> <br/>
+			<div class="ms" id="ANGOLA"></div><div class="country">ANGOLA </div> <br/>
+			<div class="ms" id="BENIN"></div><div class="country">BENIN </div> <br/>
+			<div class="ms" id="BOTSWANA"></div><div class="country">BOTSWANA </div> <br/>
+			<div class="ms" id="BURKINA FASO"></div><div class="country">BURKINA FASO </div> <br/>
+			<div class="ms" id="BURUNDI"></div><div class="country">BURUNDI </div> <br/>
+			<div class="ms" id="CAMEROON"></div><div class="country">CAMEROON </div> <br/>
+			<div class="ms" id="CAPE VERDE"></div><div class="country">CAPE VERDE </div> <br/>
+			<div class="ms" id="CENT. AFRICAN REP."></div><div class="country">CENT. AFRICAN REP. </div> <br/>
+			<div class="ms" id="CHAD"></div><div class="country">CHAD </div> <br/>
+			<div class="ms" id="COMOROS"></div><div class="country">COMOROS </div> <br/>
+			<div class="ms" id="CONGO"></div><div class="country">CONGO </div> <br/>
+			<div class="ms" id="DJIBOUTI"></div><div class="country">DJIBOUTI </div> <br/>
+			<div class="ms" id="EGYPT"></div><div class="country">EGYPT </div> <br/>
+			<div class="ms" id="EQUATORIAL GUINEA"></div><div class="country">EQUATOR </div> <br/>
+			<div class="ms" id="ERITREA"></div><div class="country">ERITREA </div> <br/>
+			<div class="ms" id="ETHIOPIA"></div><div class="country">ETHIOPIA </div> <br/>
+			<div class="ms" id="GABON"></div><div class="country">GABON </div> <br/>
+			<div class="ms" id="GAMBIA"></div><div class="country">GAMBIA </div> <br/>
+			<div class="ms" id="GHANA"></div><div class="country">GHANA </div> <br/>
+			<div class="ms" id="GUINEA BISSAU"></div><div class="country">GUINEA BISSAU </div> <br/>
+			<div class="ms" id="GUINEA"></div><div class="country">GUINEA </div> <br/>
+			<div class="ms" id="IVORY COAST"></div><div class="country">IVORY COAST </div> <br/>
+			<div class="ms" id="KENYA"></div><div class="country">KENYA </div> <br/>
+			<div class="ms" id="LESOTHO"></div><div class="country">LESOTHO </div> <br/>
+			<div class="ms" id="LIBERIA"></div><div class="country">LIBERIA </div> <br/>
+			<div class="ms" id="LIBYA"></div><div class="country">LIBYA </div> <br/>
+			<div class="ms" id="MADAGASCAR"></div><div class="country">MADAGASCAR </div> <br/>
+			<div class="ms" id="MALAWI"></div><div class="country">MALAWI </div> <br/>
+			<div class="ms" id="MALI"></div><div class="country">MALI </div> <br/>
+			<div class="ms" id="MAURITANIA"></div><div class="country">MAURITANIA </div> <br/>
+			<div class="ms" id="MAURITIUS"></div><div class="country">MAURITIUS </div> <br/>
+			<div class="ms" id="MOROCCO"></div><div class="country">MOROCCO </div> <br/>
+			<div class="ms" id="MOZAMBIQUE"></div><div class="country">MOZAMBIQUE </div> <br/>
+			<div class="ms" id="NAMIBIA"></div><div class="country">NAMIBIA </div> <br/>
+			<div class="ms" id="NIGERIA"></div><div class="country">NIGERIA </div> <br/>
+			<div class="ms" id="NIGER"></div><div class="country">NIGER </div> <br/>
+			<div class="ms" id="RWANDA"></div><div class="country">RWANDA </div> <br/>
+			<div class="ms" id="SAO TOME & PRINCIPE"></div><div class="country">SAO TOME & PRINCIPE </div> <br/>
+			<div class="ms" id="SENEGAL"></div><div class="country">SENEGAL </div> <br/>
+			<div class="ms" id="SEYCHELLES"></div><div class="country">SEYCHELLES </div> <br/>
+			<div class="ms" id="SIERRA LEONE"></div><div class="country">SIERRA LEONE </div> <br/>
+			<div class="ms" id="SOMALIA"></div><div class="country">SOMALIA </div> <br/>
+			<div class="ms" id="SOUTH AFRICA"></div><div class="country">SOUTH AFRICA </div> <br/>
+			<div class="ms" id="SOUTH SUDAN"></div><div class="country">SOUTH SUDAN </div> <br/>
+			<div class="ms" id="SUDAN"></div><div class="country">SUDAN </div> <br/>
+			<div class="ms" id="SWAZILAND"></div><div class="country">SWAZILAND </div> <br/>
+			<div class="ms" id="TANZANIA"></div><div class="country">TANZANIA </div> <br/>
+			<div class="ms" id="TOGO"></div><div class="country">TOGO </div> <br/>
+			<div class="ms" id="TUNISIA"></div><div class="country">TUNISIA </div> <br/>
+			<div class="ms" id="UGANDA"></div><div class="country">UGANDA </div> <br/>
+			<div class="ms" id="ZAIRE"></div><div class="country">ZAIRE </div> <br/>
+			<div class="ms" id="ZAMBIA"></div><div class="country">ZAMBIA </div> <br/>
+			<div class="ms" id="ZIMBABWE"></div><div class="country">ZIMBABWE </div> <br/>
+			<div class="ms" id="AMERICAS">_</div><div class="country continent">AMERICAS </div> <br/>
+			<div class="ms" id="ANTIGUA"></div><div class="country">ANTIGUA </div> <br/>
+			<div class="ms" id="ARGENTINA"></div><div class="country">ARGENTINA </div> <br/>
+			<div class="ms" id="BAHAMAS"></div><div class="country">BAHAMAS </div> <br/>
+			<div class="ms" id="BARBADOS"></div><div class="country">BARBADOS </div> <br/>
+			<div class="ms" id="BELIZE"></div><div class="country">BELIZE </div> <br/>
+			<div class="ms" id="BOLIVIA"></div><div class="country">BOLIVIA </div> <br/>
+			<div class="ms" id="BRAZIL"></div><div class="country">BRAZIL </div> <br/>
+			<div class="ms" id="CANADA"></div><div class="country">CANADA </div> <br/>
+			<div class="ms" id="CHILE"></div><div class="country">CHILE </div> <br/>
+			<div class="ms" id="COLOMBIA"></div><div class="country">COLOMBIA </div> <br/>
+			<div class="ms" id="COSTA RICA"></div><div class="country">COSTA RICA </div> <br/>
+			<div class="ms" id="CUBA"></div><div class="country">CUBA </div> <br/>
+			<div class="ms" id="DOMINICAN REP."></div><div class="country">DOMINICAN REP. </div> <br/>
+			<div class="ms" id="DOMINICA"></div><div class="country">DOMINICA </div> <br/>
+			<div class="ms" id="EQUATOR"></div><div class="country">EQUATOR </div> <br/>
+			<div class="ms" id="GRANADA"></div><div class="country">GRANADA </div> <br/>
+			<div class="ms" id="GUATEMALA"></div><div class="country">GUATEMALA </div> <br/>
+			<div class="ms" id="GUYANA"></div><div class="country">GUYANA </div> <br/>
+			<div class="ms" id="HAITI"></div><div class="country">HAITI </div> <br/>
+			<div class="ms" id="HONDURAS"></div><div class="country">HONDURAS </div> <br/>
+			<div class="ms" id="JAMAICA"></div><div class="country">JAMAICA </div> <br/>
+			<div class="ms" id="MEXICO"></div><div class="country">MEXICO </div> <br/>
+			<div class="ms" id="NICARAGUA"></div><div class="country">NICARAGUA </div> <br/>
+			<div class="ms" id="PANAMA"></div><div class="country">PANAMA </div> <br/>
+			<div class="ms" id="PARAGUAY"></div><div class="country">PARAGUAY </div> <br/>
+			<div class="ms" id="PERU"></div><div class="country">PERU </div> <br/>
+			<div class="ms" id="SALVADOR"></div><div class="country">SALVADOR </div> <br/>
+			<div class="ms" id="ST KITTS & NEVIS"></div><div class="country">ST KITTS & NEVIS </div> <br/>
+			<div class="ms" id="ST LUCIE"></div><div class="country">ST LUCIE </div> <br/>
+			<div class="ms" id="ST MARTIN"></div><div class="country">ST MARTIN </div> <br/>
+			<div class="ms" id="ST VINCENT"></div><div class="country">ST VINCENT </div> <br/>
+			<div class="ms" id="SURINAME"></div><div class="country">SURINAME </div> <br/>
+			<div class="ms" id="TRINIDAD & TOBAGO"></div><div class="country">TRINIDAD & TOBAGO </div> <br/>
+			<div class="ms" id="U.S.A."></div><div class="country">U.S.A. </div> <br/>
+			<div class="ms" id="URUGUAY"></div><div class="country">URUGUAY </div> <br/>
+			<div class="ms" id="VENEZUELA"></div><div class="country">VENEZUELA </div> <br/>
+			<div class="ms" id="ASIA">_</div><div class="country continent">ASIA </div> <br/>
+			<div class="ms" id="AFGHANISTAN"></div><div class="country">AFGHANISTAN </div> <br/>
+			<div class="ms" id="ARMENIA"></div><div class="country">ARMENIA </div> <br/>
+			<div class="ms" id="AZERBAIJAN"></div><div class="country">AZERBAIJAN </div> <br/>
+			<div class="ms" id="BAHRAIN"></div><div class="country">BAHRAIN </div> <br/>
+			<div class="ms" id="BANGLADESH"></div><div class="country">BANGLADESH </div> <br/>
+			<div class="ms" id="BHUTAN"></div><div class="country">BHUTAN </div> <br/>
+			<div class="ms" id="BRUNEI"></div><div class="country">BRUNEI </div> <br/>
+			<div class="ms" id="CAMBODIA"></div><div class="country">CAMBODIA </div> <br/>
+			<div class="ms" id="CHINA"></div><div class="country">CHINA </div> <br/>
+			<div class="ms" id="CHYPRE"></div><div class="country">CHYPRE </div> <br/>
+			<div class="ms" id="EAST TIMOR"></div><div class="country">EAST TIMOR </div> <br/>
+			<div class="ms" id="FILIPINOS"></div><div class="country">FILIPINOS </div> <br/>
+			<div class="ms" id="GEORGIA"></div><div class="country">GEORGIA </div> <br/>
+			<div class="ms" id="INDIA"></div><div class="country">INDIA </div> <br/>
+			<div class="ms" id="INDONESIA"></div><div class="country">INDONESIA </div> <br/>
+			<div class="ms" id="IRAN"></div><div class="country">IRAN </div> <br/>
+			<div class="ms" id="IRAQ"></div><div class="country">IRAQ </div> <br/>
+			<div class="ms" id="ISRAEL"></div><div class="country">ISRAEL </div> <br/>
+			<div class="ms" id="JAPAN"></div><div class="country">JAPAN </div> <br/>
+			<div class="ms" id="JORDAN"></div><div class="country">JORDAN </div> <br/>
+			<div class="ms" id="KAZAKHSTAN"></div><div class="country">KAZAKHSTAN </div> <br/>
+			<div class="ms" id="KUWAIT"></div><div class="country">KUWAIT </div> <br/>
+			<div class="ms" id="KYRGYZSTAN"></div><div class="country">KYRGYZSTAN </div> <br/>
+			<div class="ms" id="LAOS"></div><div class="country">LAOS </div> <br/>
+			<div class="ms" id="LEBANON"></div><div class="country">LEBANON </div> <br/>
+			<div class="ms" id="MALAYSIA"></div><div class="country">MALAYSIA </div> <br/>
+			<div class="ms" id="MALDIVES"></div><div class="country">MALDIVES </div> <br/>
+			<div class="ms" id="MONGOLIA"></div><div class="country">MONGOLIA </div> <br/>
+			<div class="ms" id="MYANMAR"></div><div class="country">MYANMAR </div> <br/>
+			<div class="ms" id="NEPAL"></div><div class="country">NEPAL </div> <br/>
+			<div class="ms" id="NORTH KOREA"></div><div class="country">NORTH KOREA </div> <br/>
+			<div class="ms" id="OMAN"></div><div class="country">OMAN </div> <br/>
+			<div class="ms" id="PAKISTAN"></div><div class="country">PAKISTAN </div> <br/>
+			<div class="ms" id="QATAR"></div><div class="country">QATAR </div> <br/>
+			<div class="ms" id="SAUDI ARABIA"></div><div class="country">SAUDI ARABIA </div> <br/>
+			<div class="ms" id="SINGAPORE"></div><div class="country">SINGAPORE </div> <br/>
+			<div class="ms" id="SOUTH KOREA"></div><div class="country">SOUTH KOREA </div> <br/>
+			<div class="ms" id="SRI LANKA"></div><div class="country">SRI LANKA </div> <br/>
+			<div class="ms" id="SYRIA"></div><div class="country">SYRIA </div> <br/>
+			<div class="ms" id="TAJIKISTAN"></div><div class="country">TAJIKISTAN </div> <br/>
+			<div class="ms" id="THAILAND"></div><div class="country">THAILAND </div> <br/>
+			<div class="ms" id="TURKEY"></div><div class="country">TURKEY </div> <br/>
+			<div class="ms" id="TURKMENISTAN"></div><div class="country">TURKMENISTAN </div> <br/>
+			<div class="ms" id="UNITED ARAB EM."></div><div class="country">UNITED ARAB EM. </div> <br/>
+			<div class="ms" id="UZBEKISTAN"></div><div class="country">UZBEKISTAN </div> <br/>
+			<div class="ms" id="VIETNAM"></div><div class="country">VIETNAM </div> <br/>
+			<div class="ms" id="YEMEN"></div><div class="country">YEMEN </div> <br/>
+			<div class="ms" id="EUROPE">_</div><div class="country continent">EUROPE </div> <br/>
+			<div class="ms" id="ALBANIA"></div><div class="country">ALBANIA </div> <br/>
+			<div class="ms" id="ANDORRA"></div><div class="country">ANDORRA </div> <br/>
+			<div class="ms" id="AUSTRIA"></div><div class="country">AUSTRIA </div> <br/>
+			<div class="ms" id="BELARUS"></div><div class="country">BELARUS </div> <br/>
+			<div class="ms" id="BELGIUM"></div><div class="country">BELGIUM </div> <br/>
+			<div class="ms" id="BOSNIA"></div><div class="country">BOSNIA </div> <br/>
+			<div class="ms" id="BULGARIA"></div><div class="country">BULGARIA </div> <br/>
+			<div class="ms" id="CROATIA"></div><div class="country">CROATIA </div> <br/>
+			<div class="ms" id="CZECH REP."></div><div class="country">CZECH REP. </div> <br/>
+			<div class="ms" id="DENMARK"></div><div class="country">DENMARK </div> <br/>
+			<div class="ms" id="ESTONIA"></div><div class="country">ESTONIA </div> <br/>
+			<div class="ms" id="FINLAND"></div><div class="country">FINLAND </div> <br/>
+			<div class="ms" id="FRANCE"></div><div class="country">FRANCE </div> <br/>
+			<div class="ms" id="GERMANY"></div><div class="country">GERMANY </div> <br/>
+			<div class="ms" id="GREECE"></div><div class="country">GREECE </div> <br/>
+			<div class="ms" id="HUNGARY"></div><div class="country">HUNGARY </div> <br/>
+			<div class="ms" id="ICELAND"></div><div class="country">ICELAND </div> <br/>
+			<div class="ms" id="IRELAND"></div><div class="country">IRELAND </div> <br/>
+			<div class="ms" id="ITALY"></div><div class="country">ITALY </div> <br/>
+			<div class="ms" id="LATVIA"></div><div class="country">LATVIA </div> <br/>
+			<div class="ms" id="LIECHTENSTEIN"></div><div class="country">LIECHTENSTEIN </div> <br/>
+			<div class="ms" id="LITHUANIA"></div><div class="country">LITHUANIA </div> <br/>
+			<div class="ms" id="LUXEMBOURG"></div><div class="country">LUXEMBOURG </div> <br/>
+			<div class="ms" id="MACEDONIA"></div><div class="country">MACEDONIA </div> <br/>
+			<div class="ms" id="MALTA"></div><div class="country">MALTA </div> <br/>
+			<div class="ms" id="MOLDAVIA"></div><div class="country">MOLDAVIA </div> <br/>
+			<div class="ms" id="MONACO"></div><div class="country">MONACO </div> <br/>
+			<div class="ms" id="MONTENEGRO"></div><div class="country">MONTENEGRO </div> <br/>
+			<div class="ms" id="NETHERLANDS"></div><div class="country">NETHERLANDS </div> <br/>
+			<div class="ms" id="NORWAY"></div><div class="country">NORWAY </div> <br/>
+			<div class="ms" id="POLAND"></div><div class="country">POLAND </div> <br/>
+			<div class="ms" id="PORTUGAL"></div><div class="country">PORTUGAL </div> <br/>
+			<div class="ms" id="ROMANIA"></div><div class="country">ROMANIA </div> <br/>
+			<div class="ms" id="RUSSIA"></div><div class="country">RUSSIA </div> <br/>
+			<div class="ms" id="SERBIA"></div><div class="country">SERBIA </div> <br/>
+			<div class="ms" id="SLOVAKIA"></div><div class="country">SLOVAKIA </div> <br/>
+			<div class="ms" id="SLOVENIA"></div><div class="country">SLOVENIA </div> <br/>
+			<div class="ms" id="SPAIN"></div><div class="country">SPAIN </div> <br/>
+			<div class="ms" id="SWEDEN"></div><div class="country">SWEDEN </div> <br/>
+			<div class="ms" id="SWISS"></div><div class="country">SWISS </div> <br/>
+			<div class="ms" id="UKRAINE"></div><div class="country">UKRAINE </div> <br/>
+			<div class="ms" id="UNITED KINGDOM"></div><div class="country">UNITED KINGDOM </div> <br/>
+			<div class="ms" id="OCEANIA">_</div><div class="country continent">OCEANIA </div> <br/>
+			<div class="ms" id="AUSTRALIA"></div><div class="country">AUSTRALIA </div> <br/>
+			<div class="ms" id="FIJI"></div><div class="country">FIJI </div> <br/>
+			<div class="ms" id="KIRIBATI"></div><div class="country">KIRIBATI </div> <br/>
+			<div class="ms" id="MARSHALL ISLANDS"></div><div class="country">MARSHALL</div> <br/>
+			<div class="ms" id="MICRONESIA"></div><div class="country">MICRONESIA </div> <br/>
+			<div class="ms" id="NAURU"></div><div class="country">NAURU </div> <br/>
+			<div class="ms" id="NEW ZELAND"></div><div class="country">NEW ZELAND </div> <br/>
+			<div class="ms" id="PALAOS"></div><div class="country">PALAOS </div> <br/>
+			<div class="ms" id="PAPUA"></div><div class="country">PAPUA </div> <br/>
+			<div class="ms" id="SAMOA"></div><div class="country">SAMOA </div> <br/>
+			<div class="ms" id="SOLOMON ISLANDS"></div><div class="country">SOLOMON</div> <br/>
+			<div class="ms" id="TONGA"></div><div class="country">TONGA </div> <br/>
+			<div class="ms" id="TUVALU"></div><div class="country">TUVALU </div> <br/>
+			<div class="ms" id="VANUATU"></div><div class="country">VANUATU </div> <br/>
+		</div>
+
 
 		<div id="docu">
 			<h1>DOCUMENTATION</h1> 
