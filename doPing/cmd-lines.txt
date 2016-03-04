@@ -1,0 +1,25 @@
+
+
+
+
+
+
+python blockfinder-master/blockfinder.py -i
+python blockfinder-master/blockfinder.py -t fr:ipv4
+
+for i in {1..14}; do sudo hping3 -S 196.188.0.$i -c 1 ; done
+
+
+
+---
+
+il nous faudra une rasberry py connectée OU un server avec python, fping et hping3 (typiquement un dédié)
+http://www.iplocationtools.com/
+
+----
+
+ip-list.sh : zéro ip pour KP
+http://www.korea-dpr.com/   (located in Spain)
+
+http://www.kcna.kp  (located in North Korea) 
+aucune réponse
