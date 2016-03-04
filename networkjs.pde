@@ -26,7 +26,7 @@ void setup() {
 }
 
 void draw() {
-  if (frameCount%(fpss*10)==0) dataRequest("doping/ping.txt");
+  if (frameCount%(fpss*10)==0) dataRequest("doPing/ping.txt");
   if (frameCount%(fpss)==0) t++ ;  if(t==11) t = 1 ; 
 
   // labels fadeout speed
